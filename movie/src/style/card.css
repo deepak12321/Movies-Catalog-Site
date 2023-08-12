@@ -1,0 +1,41 @@
+.main-card {
+    height: 300px;
+    width: 200px;
+    /* padding: 10px; */
+    color: aliceblue;
+    /* overflow: hidden; */
+    background-color: #474747;
+    /* animation: cardAnim 1s ease 0s 1 normal forwards; */
+    transition: 0.2s;
+}
+
+#card-img {
+    height: 100%;
+    width: 100%;
+    text-decoration: none;
+}
+
+.main-card:hover {
+    transform: scale(1.05);
+}
+
+.err {
+    color: white;
+}
+
+@keyframes cardAnim {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .main-card {
+        height: 200px;
+        width: 150px;
+    }
+}

@@ -1,0 +1,15 @@
+.detail-about-section {
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 10px;
+    color: #212529;
+
+}
+
+.detail-about-section h3 {
+    font-size: 30px;
+}
+
+.detail-about-section p {
+    font-size: 18px;
+}

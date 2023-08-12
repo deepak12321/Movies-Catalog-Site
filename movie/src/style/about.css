@@ -1,0 +1,52 @@
+.content-area {
+    flex-direction: column;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+.intro-img-div {
+    margin-top: 30px;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    /* overflow: hidden; */
+}
+
+.about-desc {
+    color: #ffffff;
+    background-blend-mode: lighten;
+}
+
+.intro-img {
+    width: 100%;
+}
+
+.intro-text {
+    background-color: rgba(0, 0, 0, 0.295);
+    position: relative;
+    width: 100%;
+    /* height: 500px; */
+    top: 20px;
+    z-index: 1;
+}
+
+.bg-video {
+    height: 100%;
+    width: 100%;
+    z-index: -0;
+    position: fixed;
+}
+
+.mars-desc h1 {
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.mars-desc p {
+    padding: 20px;
+    text-align: justify;
+}
