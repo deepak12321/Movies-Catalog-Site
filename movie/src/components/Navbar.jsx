@@ -12,9 +12,8 @@ const Navbar = () => {
                         <p className='logo center'><span className='icon'>🍿</span>MoviesHub</p>
 
                         <div className="nav-list center">
-                            <Link className="nav-link" to="/">About</Link>
+                            <Link className="nav-link" to="/">Dab Dab</Link>
                             <Link className="nav-link" to="/movie">Movies</Link>
-                            {/* <Link className="nav-link" to="/favourite">Favourite</Link>s */}
                         </div>
 
                     </div>
